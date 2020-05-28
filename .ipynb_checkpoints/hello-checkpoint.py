@@ -1,6 +1,4 @@
-
 import sys
-[print(i) for i in sys.path]
 print(sys.executable)
 print(sys.version)
 
