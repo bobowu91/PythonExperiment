@@ -10,7 +10,7 @@ def process_time(f, *args, **kwargs):
         import timeit
         start = timeit.default_timer()
         val = f(*args, **kwargs)
-        print(f"function time: {timeit.default_timer() - start}")
+        print(f"runtime of {f.__name__} : {timeit.default_timer() - start}")
         return val
     return func
 
